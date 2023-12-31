@@ -1,0 +1,7 @@
+Assume you have a fan object.And it has "no_of_wings","color","cost" and "brand".Fan can rotate and it can blow Air.Your 
+Task is to create 3 fan objects and access its data members and give the values to it.You should also print the data 
+members on the console.Ypou should also access its member functions after printing data members on the console.
+Note:
+Fan can certainly rotate but user should know which color which brand and how many wings fan is rotating and what is the 
+cost of it.If Blow Air is accessed then fan can certainly blow air but which color fan is blowing air,the user should know 
+it.
