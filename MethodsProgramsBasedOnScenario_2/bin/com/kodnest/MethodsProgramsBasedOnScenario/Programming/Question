@@ -1,0 +1,14 @@
+Write a java program to take name and year of birth as input from the keyboard and greet the person with his name printed
+along with greeting message.You should also print the age of the person after greeting.
+Note1:
+Greeting is a task.so we keep the task in a separate method and let the method be of "type 3" i.e method which would 
+accept the parameter and would not return the value
+Note2:
+Calculating age is also a task hence keep it in a separate method of "type 4" i.e which would accept the parameter and
+would return a value.
+Sample Input:
+Omkar
+2020
+Sample Output:
+Hello Omkar
+You are 3 years old
