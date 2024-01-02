@@ -4,5 +4,5 @@
 /**
  * 
  */
-module ArithmeticOperation0308 {
+module ArithmeticOperations {
 }
