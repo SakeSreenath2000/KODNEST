@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Getting the Data From the Model and Displaying it</title>
+</head>
+<body>
+<table border="1">
+<tr>
+<td>RollNo</td>
+<td>Name</td>
+<td>Marks</td>
+</tr>
+<tr th:each="Students : ${Students}">
+<td th:text="${Students.RollNo}"></td>
+<td th:text="${Students.Name}"></td>
+<td th:text="${Students.Marks}"></td>
+</tr>
+
+</table>
+
+</body>
+</html>
