@@ -1,0 +1,8 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module StringsInJavaInbuiltMethods_2 {
+}
