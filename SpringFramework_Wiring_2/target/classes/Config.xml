@@ -1,0 +1,36 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean class="com.kodnest.SpringFramework.Programming.SpringFramework_Wiring_2.Person" id="pr1">
+		<property name="m" ref="mob1"></property>
+	</bean>
+	
+	<bean class="com.kodnest.SpringFramework.Programming.SpringFramework_Wiring_2.Person" id="pr2">
+		<property name="m" ref="mob2"></property>
+	</bean>
+	
+	<bean class="com.kodnest.SpringFramework.Programming.SpringFramework_Wiring_2.Person" id="pr3">
+		<property name="m" ref="mob3"></property>
+	</bean>
+	
+	<bean class="com.kodnest.SpringFramework.Programming.SpringFramework_Wiring_2.Mobile" id="mob1">
+		<property name="Mob_Brand" value="Realme"></property>
+		<property name="Mob_Cost" value="21000"></property>
+		<property name="Mob_Ramsize" value="8"></property>
+	</bean>
+	
+	<bean class="com.kodnest.SpringFramework.Programming.SpringFramework_Wiring_2.Mobile" id="mob2">
+		<property name="Mob_Brand" value="MI"></property>
+		<property name="Mob_Cost" value="20000"></property>
+		<property name="Mob_Ramsize" value="4"></property>
+	</bean>
+	
+	<bean class="com.kodnest.SpringFramework.Programming.SpringFramework_Wiring_2.Mobile" id="mob3">
+		<property name="Mob_Brand" value="Vivo"></property>
+		<property name="Mob_Cost" value="22000"></property>
+		<property name="Mob_Ramsize" value="8"></property>
+	</bean>
+	
+</beans>	

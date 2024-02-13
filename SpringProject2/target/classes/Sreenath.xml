@@ -1,0 +1,19 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean class="com.kodnest.SpringFramework.Project2.Programming.SpringProject2.JavaTeacher" id="jt">
+		<property name="JT_Id" value="789"></property>
+		<property name="JT_Name" value="Sreenath"></property>
+	</bean>
+	<bean class="com.kodnest.SpringFramework.Project2.Programming.SpringProject2.SQLTeacher" id="st">
+		<property name="ST_Id" value="706"></property>
+		<property name="ST_Name" value="Akila"></property>
+	</bean>
+	<bean class="com.kodnest.SpringFramework.Project2.Programming.SpringProject2.PythonTeacher" id="pt">
+		<property name="PT_Id" value="671"></property>
+		<property name="PT_Name" value="Bhagya"></property>
+	</bean>
+
+</beans>

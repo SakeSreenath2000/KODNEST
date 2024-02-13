@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+	<context:annotation-config />
+	<!-- Above Spring DTD which is used for Annotations -->
+
+	<!-- Achieving AutoWiring using Annotations -->
+	<bean
+		class="com.kodnest.Spring.Programming.Spring_ProfessorApp_AutoWiring_Using_QualifierAnnotation.University"
+		id="ur">
+
+	</bean>
+
+	<!-- Setter Injection -->
+	<bean
+		class="com.kodnest.Spring.Programming.Spring_ProfessorApp_AutoWiring_Using_QualifierAnnotation.Professor"
+		id="prof1">
+		<property name="PrId" value="13"></property>
+		<property name="PrName" value="Amit"></property>
+		<property name="PrSubject" value="Maths"></property>
+	</bean>
+	<bean
+		class="com.kodnest.Spring.Programming.Spring_ProfessorApp_AutoWiring_Using_QualifierAnnotation.Professor"
+		id="prof2">
+		<property name="PrId" value="14"></property>
+		<property name="PrName" value="Shubam"></property>
+		<property name="PrSubject" value="Physics"></property>
+	</bean>
+
+</beans>

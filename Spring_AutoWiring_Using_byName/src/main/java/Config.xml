@@ -1,0 +1,20 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<!-- Achieving AutoWiring using byName  -->
+	<bean class="com.kodnest.SpringFramework.Programming.Spring_AutoWiring_Using_byName.Car" id="cr" autowire="byName">
+
+	</bean>
+	<!-- Constructor Injection -->
+	<bean class="com.kodnest.SpringFramework.Programming.Spring_AutoWiring_Using_byName.Engine" id="eng">
+		<constructor-arg value="1234"></constructor-arg>
+		<constructor-arg value="Petrol"></constructor-arg>
+	</bean>
+
+	<bean class="com.kodnest.SpringFramework.Programming.Spring_AutoWiring_Using_byName.Engine" id="eng1">
+		<constructor-arg value="5678"></constructor-arg>
+		<constructor-arg value="Diesel"></constructor-arg>
+	</bean>
+
+</beans>
