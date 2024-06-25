@@ -1,0 +1,8 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module CopyingElementsFromOneArrayToAnotherUsing1DArray {
+}

@@ -1,0 +1,16 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<!-- Achieving AutoWiring using Constructor  -->
+	<bean class="com.kodnest.SpringFramework.Programming.Spring_ProfessorApp_AutoWiring_Using_Constructor.University" id="ur" autowire="constructor">
+
+	</bean>
+	<!-- Setter Injection -->
+	<bean class="com.kodnest.SpringFramework.Programming.Spring_ProfessorApp_AutoWiring_Using_Constructor.Professor" id="prof">
+		<property name="PrId" value="13"></property>
+		<property name="PrName" value="Amit"></property>
+		<property name="PrSubject" value="Maths"></property>
+	</bean>
+	
+</beans>

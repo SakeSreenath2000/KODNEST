@@ -1,0 +1,20 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<!-- Setter Injection -->
+	<bean class="com.kodnest.SpringFramework.Programming.SpringProject3.Laptop" id="laptop1">
+		<property name="SerialNo" value="1234"></property>
+		<property name="Brand" value="HP"></property>
+		<property name="Cost" value="55000.5F"></property>
+	</bean>
+	
+	<!-- Constructor Injection -->
+	<bean class="com.kodnest.SpringFramework.Programming.SpringProject3.Laptop" id="laptop2">
+		<constructor-arg value="5678"></constructor-arg>
+		<constructor-arg value="Lenovo"></constructor-arg>
+		<constructor-arg value="70000.9F"></constructor-arg>
+	</bean>
+
+</beans>

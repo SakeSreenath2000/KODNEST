@@ -1,0 +1,8 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module UsageOfInbuiltMath.randomMethod {
+}

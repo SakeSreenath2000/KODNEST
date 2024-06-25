@@ -1,0 +1,8 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module RaisedToThePowerOfNumberOfDigitsInTheNumber_1 {
+}

@@ -1,0 +1,10 @@
+Write a java program to take name as input from the keyboard and greet the person with his name printed along with 
+greeting message.
+Note:
+Greeting is a task.so we keep the task in a separate method and let the method be of "type 3" i.e method which would 
+accept the parameter and would not return the value
+Sample Input:
+Omkar
+
+Sample Output:
+Hello Omkar...How Are You...?

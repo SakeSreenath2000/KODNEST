@@ -1,0 +1,36 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<!-- Setter Injection -->
+	<bean class="com.kodnest.SpringFramework.Programming.SpringProject4.Employee" id="emp">
+	
+		<!-- Setting the Values for List Type -->
+		<property name="Technologies">
+			<list>
+				<value>Java</value>
+				<value>HTML</value>
+				<value>CSS</value>
+			</list>
+		</property>
+		
+		<!-- Setting the Values for Set Type -->
+		<property name="Projects">
+			<set>
+				<value>Project-1</value>
+				<value>Project-2</value>
+				<value>Project-3</value>
+			</set>
+		</property>
+		
+		<!-- Setting the Values for Map Type -->
+		<property name="Companies">
+			<map>
+				<entry key="789" value="XYZ"></entry>
+				<entry key="706" value="PQR"></entry>
+			</map>
+		</property>
+
+	</bean>
+</beans>

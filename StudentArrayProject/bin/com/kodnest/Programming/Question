@@ -1,0 +1,3 @@
+Write a java program to create a Student class which have data members of roll number,name and age.Create three objects 
+of this Student class and store all the student objects in an array.After storing the objects in an array retrieve and
+display the data present in the Student objects in the Array?
