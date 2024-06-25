@@ -7,6 +7,7 @@ public class CarApp {
 		cr.refuel();
 	}
 	public static void main(String[] args) {
+		//Creating the Objects
 		ElectricCar ec=new ElectricCar();
 		PetrolCar pc=new PetrolCar();
 		DieselCar dc=new DieselCar();
